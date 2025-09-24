@@ -19,3 +19,18 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py seed
 
+
+alx_travel_app_0x00/
+├── alx_travel_app/
+│   ├── settings.py
+│   └── ...
+├── listings/
+│   ├── models.py
+│   ├── serializers.py
+│   ├── management/
+│   │   └── commands/
+│   │       └── seed.py
+│   └── ...
+├── manage.py
+└── README.md
+
